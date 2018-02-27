@@ -13,9 +13,9 @@ public class LibraryTest {
     @Before
     public void before(){
         library = new Library(10);
-        book1 = new Book("The Loney");
-        book2 = new Book("Girl on the Train");
-        book3 = new Book("The Exorcist");
+        book1 = new Book("The Loney", GenreType.HORROR);
+        book2 = new Book("Girl on the Train", GenreType.THRILLER);
+        book3 = new Book("The Exorcist", GenreType.HORROR);
     }
 
     @Test

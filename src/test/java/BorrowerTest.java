@@ -13,7 +13,7 @@ public class BorrowerTest {
     public void before(){
         this.borrower = new Borrower();
         this.library = new Library(10);
-        this.book = new Book("The Loney");
+        this.book = new Book("The Loney", GenreType.HORROR);
     }
 
     @Test
