@@ -1,8 +1,5 @@
 import org.junit.Before;
 import org.junit.Test;
-import sun.rmi.rmic.iiop.ValueType;
-
-import javax.smartcardio.Card;
 
 import static org.junit.Assert.assertEquals;
 

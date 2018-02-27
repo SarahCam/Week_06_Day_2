@@ -1,6 +1,3 @@
-import sun.rmi.rmic.iiop.ValueType;
-
-import javax.smartcardio.Card;
 
 public class Book {
 
